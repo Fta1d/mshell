@@ -1,0 +1,63 @@
+# Ignore build directory created by CMake/Make
+/build/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+Makefile
+CMakeFiles/
+
+# Common build directories
+cmake-build-*/
+
+# Compiled object files and outputs
+*.o
+*.obj
+*.lo
+*.la
+*.out
+*.exe
+mshell
+
+# Static / shared libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Coverage and profiling
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tags/databases
+tags
+cscope.*
+
+# Other
+dist/
+build-*/
+
+# Keep workspace file if you want it tracked: remove this line to ignore it
+mshell.code-workspace
